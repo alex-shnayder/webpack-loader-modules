@@ -18,8 +18,8 @@ var templateModules = new LoaderModules();
 module.exports = {
   module: {
     loaders: [
-    test: /\.jade$/,
-    loader: templateModules.loader('html!jade')
+      test: /\.jade$/,
+      loader: templateModules.loader('html!jade')
     ]
   },
   plugins: [
