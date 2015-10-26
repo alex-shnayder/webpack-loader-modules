@@ -25,5 +25,5 @@ module.exports = function(content) {
 
 
 module.exports.getPluginModules = function(pluginId) {
-  return modules[pluginId];
+  return modules[pluginId] || [];
 };
